@@ -1,6 +1,8 @@
 # [Screenshotit_bot](https://tx.me/screenshotit_bot)
 > Telegram Bot For Screenshot Generation.
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## Description
 
 An attempt to implement the screenshot generation of telegram files without downloading the entire file. Live version can be found here [@screenshotit_bot](https://tx.me/screenshotit_bot "Screenshot Generator Bot").
