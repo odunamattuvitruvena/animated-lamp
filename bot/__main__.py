@@ -1,3 +1,6 @@
+#TM_Adminz
+#MonkAno
+
 import logging
 
 from .screenshotbot import ScreenShotBot
