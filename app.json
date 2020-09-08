@@ -1,0 +1,69 @@
+{
+  "name": "Ai Screenshot Bot",
+  "description": "A Telegram Torrent (and youtube-dl) Leecher based on Pyrogram. Powered by @TM_Adminz",
+  "keywords": [
+    "telegram"
+  ],
+  "repository": "https://github.com/odunamattuvitruvena/animated-lamp",
+  "success_url": "https://telegram.dog/AiTorrentWare",
+  "website": "https://github.com/odysseusmax/animated-lamp",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+    "API_ID": {
+      "description": "Your Telegram API ID",
+      "value": "1667813"
+    },
+    "API_HASH": {
+      "description": "Your Telegram API hash",
+      "value": "1f6921c27bf6cd01aba471a14ff33bcb"
+    },
+    "LOG_CHANNEL": {
+      "description": "Log channel's id",
+      "value": "-1001457404263"
+    },
+    "DATABASE_URL": {
+      "description": "Mongodb database URI",
+      "value": ""
+    },
+    "HOST": {
+      "description": "Public URL of file streaming service",
+      "value": ""
+    },
+    "AUTH_USERS": {
+      "description": "Admin(s) of the bot. User's telegram id separated by space. Atleast one id should be specified",
+      "value": "1326703864"
+    },
+    "SESSION_NAME": {
+      "description": "Name you want to call your bot's session, Eg: bot's username",
+      "value": ""
+    },
+    "MAX_PROCESSES_PER_USER": {
+      "description": "Number of parallel processes each user can have, defaults to 2",
+      "value": "2"
+    },
+    "MAX_TRIM_DURATION": {
+      "description": "Maximum allowed video trim duration in seconds. Defaults to 600s",
+      "value": "600."
+    },
+    "TRACK_CHANNEL": {
+      "description": "User activity tracking channel's id. Only needed if you want to track and block any user. Disabled by default",
+      "value": "-1001457404263"
+    },
+    "SLOW_SPEED_DELAY": {
+      "description": "Delay required between each interaction from users in seconds. Defaults to 5s",
+      "value": "5"
+    },
+    "BOT_TOKEN": {
+      "description": "(defaults to None) - This option is mutually exclusive to TG_SESSION_NAME, and if set, the client will login as a bot, instead of an user",
+      "value": "973349613:AAERWqTpU82kS0CV3h_uBBvxdLhHB0amLkQ"
+    },
+    "TIMEOUT": {
+      "description": "Maximum time alloted to each process in seconds, after which process will be cancelled. Defaults to 1800s(30 mins)",
+      "value": "1800"
+    }
+  },
+  "stack": "heroku-18"
+}
